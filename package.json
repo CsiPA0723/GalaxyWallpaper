@@ -1,0 +1,16 @@
+{
+  "name": "galaxy-wallpaper",
+  "version": "0.0.1",
+  "description": "An interactive wallpaper for lively wallpaper.",
+  "main": "dist/galaxy.js",
+  "keywords": [],
+  "author": {
+    "name": "Péter Csizmadia",
+    "email": "csizipeti0723@gmail.com"
+  },
+  "repository": "https://github.com/CsiPA0723/GalaxyWallpaper.git",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.129.0"
+  }
+}
