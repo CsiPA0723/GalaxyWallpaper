@@ -13,7 +13,7 @@
     "email": "csizipeti0723@gmail.com"
   },
   "repository": "https://github.com/CsiPA0723/GalaxyWallpaper.git",
-  "license": "GNU",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "style-loader": "^3.0.0",
     "three": "^0.129.0"
