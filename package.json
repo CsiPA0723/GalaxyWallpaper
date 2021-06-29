@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "An interactive wallpaper for lively wallpaper.",
   "main": "dist/galaxy.js",
+  "scripts": {
+    "build": "wp",
+    "start": "wp --config webpack.config.dev.js"
+  },
   "keywords": [],
   "author": {
     "name": "Péter Csizmadia",
@@ -11,6 +15,25 @@
   "repository": "https://github.com/CsiPA0723/GalaxyWallpaper.git",
   "license": "MIT",
   "dependencies": {
+    "style-loader": "^3.0.0",
     "three": "^0.129.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.129.1",
+    "@types/ts-nameof": "^4.2.1",
+    "@types/webpack-plugin-serve": "^1.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.29.0",
+    "fork-ts-checker-webpack-plugin": "^6.2.12",
+    "ts-loader": "^9.2.3",
+    "ts-nameof": "^5.0.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.41.0",
+    "webpack-nano": "^1.1.1",
+    "webpack-plugin-serve": "^1.4.1"
   }
 }
