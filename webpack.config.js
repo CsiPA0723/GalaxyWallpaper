@@ -50,7 +50,7 @@ const Default = {
     }),
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin({
-      patterns: ["src/index.html", /*"src/style.css",*/ "package.json"],
+      patterns: ["src/index.html", "LICENSE", "package.json"],
     }),
   ],
 };
