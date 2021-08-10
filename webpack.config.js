@@ -8,7 +8,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 /** @type {import("webpack").Configuration} */
 const Default = {
   context: __dirname,
-  entry: "./src/galaxy.ts",
+  entry: "index.ts",
   resolve: {
     extensions: [".js", ".ts", ".json", ".css"],
   },
