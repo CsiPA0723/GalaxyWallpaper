@@ -1,4 +1,4 @@
-# GalaxyWallpaper
+# GalaxyWallpaper (WIP)
 
 An interactive wallpaper for [Lively Wallpaper](https://rocksdanister.github.io/lively/).
 
